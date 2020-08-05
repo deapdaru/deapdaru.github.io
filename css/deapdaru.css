@@ -70,7 +70,7 @@ header h1 {
 
 .about img {
     display: block;
-    max-width: 500px;
+    max-width: 300px;
     margin: auto;
 }
 
@@ -180,6 +180,10 @@ footer address {
         width: auto;
         padding: 20px;
     }
+    
+    .about img {
+        max-width: 400px;
+    }
 }
 
 /* For laptops */
@@ -205,5 +209,9 @@ footer address {
         border-right: 0;
         border-top: 0;
         border-radius: 6px 6px 0px 0px;
+    }
+    
+    .about img {
+        max-width: 500px;
     }
 }
